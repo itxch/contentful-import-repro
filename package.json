@@ -1,0 +1,18 @@
+{
+  "name": "contentful-import-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev":  "tsx --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "contentful-import": "^9.4.89",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.3"
+  },
+  "volta": {
+    "node": "22.14.0"
+  }
+}
